@@ -1,0 +1,39 @@
+#body{
+    margin: 0% 0%;
+ }
+ #headdiv {
+     background-color:rgb(0, 0, 0);
+     height:55px;
+ }
+ #headdiv-1{
+   width: 20%;
+   height: 100%;
+   float: left;
+   text-align: center;
+ }
+ #headdiv-1 div{
+   margin-top:7px;
+ }
+
+ #bodydiv{
+   height:2000px;
+ }
+ #logo{
+   font-family: Consolas;
+   font-size: 34px;
+   color: rgb(255, 93, 93);
+   text-decoration: none;
+
+ }
+ #headdiv-2{
+	 width: 60%;
+	 height: 100%;
+ }
+ #headdiv-2 div{
+  padding-top: 18px;
+ }
+ #list{
+	 font-family: Segoe UI;
+	 font-size: 20px;
+	 color: white;
+ }

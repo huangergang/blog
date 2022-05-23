@@ -1,14 +1,14 @@
-#body1,#body2,#body3,#body4{
+#body1,#body2,#body3{
 	width: 70%;
 	height: 20%;
-	background-color: #205146;
+
 	margin-left: 15%;
 /* 	background-color:rgba(255,255,0,0); */
 	color: white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #body1{
-	background-image: ;
+	background-color: #205146;
 }
 #body2{
 	background-color: #1B6D85;
@@ -16,18 +16,17 @@
 #body3{
 	background-color: darkolivegreen;
 }
-#body4{
-	background-color: black;
-}
+
 #header{
 	width: 100%;
-	height: 20%;
+	height: 35%;
     background-image: url(../image/hill.jpg);
 	background-size: 100%;
 	color: darkgrey;
 	text-align: justify;
 	font-size: 30px;
-	font-family: 华文行楷;
+	font-family: 楷体;
+	font-style: italic;
 }
 #p{
 	width: 70%;
@@ -36,7 +35,7 @@
 	text-indent:2em;
 }
 #header1{
-	padding-top: 5%;
+	padding-top: 10%;
 }
   /* 核心样式 */
   .card {
@@ -86,4 +85,10 @@
 a{
 	text-decoration: none;
 	color: white;
+}
+#card{
+	width: 100%;
+	height: 100%;
+	background-image: url(../image/hua2.jpg);
+	background-size: 100%;
 }
