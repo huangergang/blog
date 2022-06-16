@@ -1,18 +1,3 @@
-// 菜单列表下划线样式
-function headdiv2(){
-    var aList =  document.getElementsByClassName("aList");
-    function over(){
-     this.style.borderBottom="2px solid white";
-    }
-    function out(){
-    this.style.borderBottom="0px solid";
-    }
-    for(var i=0;i<aList.length;i++){
-       aList[i].onmouseover=over;
-       aList[i].onmouseout=out;
-    }
-   }
-headdiv2();
 // 搜索和登录边框样式
 function headdiv3(){
     var actList = document.getElementsByClassName("actList");
@@ -28,8 +13,6 @@ function headdiv3(){
     }
 }
 headdiv3();
-
-
 
 
 var flag = true;

@@ -55,9 +55,9 @@
 	padding-bottom:3px;
 	padding-right:3px;
 	padding-left:3px;
-    display:table-cell;
-    text-decoration:none;
-    vertical-align: middle;
+  display:table-cell;
+  text-decoration:none;
+  vertical-align: middle;
  }
  #headdiv-3 div a img{
    padding-top: 10px;
@@ -76,10 +76,10 @@
    display: none;
  }
  #taildiv{
- margin-top: 600px;
- background-color: rgb(0, 0, 0);
- height:200px;
- bottom:0;
+    margin-top: 700px;
+    background-color: rgb(0, 0, 0);
+    height:200px;
+    bottom:0;
  }
  #tailddiv1{
    height: 25%;
@@ -94,7 +94,7 @@
    color: aliceblue;
  }
  #bodydiv{
-   height:2000px;
+   height: 2000px;
  }
  #logo{
    font-family: Consolas;
@@ -102,3 +102,4 @@
    color: rgb(255, 93, 93);
    text-decoration: none;
  }
+
