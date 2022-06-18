@@ -13,28 +13,3 @@ function headdiv3(){
     }
 }
 headdiv3();
-
-
-var flag = true;
-
-var ico = document.getElementById("bianhuan");
-var Sreach = document.getElementById("Sreach");
-var menu = document.getElementById("menu");
-
-
-
-function fun(){
-    if(flag){
-        menu.style.display="none";
-        Sreach.style.display="block";
-        this.src="../web/image/ico/1.png";
-        flag = false;
-    }else{
-        menu.style.display="block";
-        Sreach.style.display="none";
-        this.src="../web/image/ico/搜索2.png";
-        flag = true;
-}
-
-}
-ico.addEventListener("click",fun);
