@@ -1,23 +1,24 @@
 
-#headdiv-2 ul ol a::after{
+/* top 栏菜单下划线动画 */
+
+.h-nav ol a::after{
     content: "";
-    border-bottom: white solid 2px;
+    border-bottom: white solid 1.75px;
     display: block;
     transform: scale(0);
-    transition:all 0.15s ease-out 0s; 
+    transition:all 0.16s ease-out 0s; 
 }
 
-#headdiv-2 ul ol a::before{
+.h-nav ol a::before{
     content: "";
-    border-left:white solid 2px;
+    border-left:white solid 1.75px;
     display: block;
     position: absolute;
     transform: scale(0);
     transform-origin: center top;
-    transition: all 0.15s ease-out 0s; 
+    transition: all 0.16s ease-out 0s; 
 }
 
-
-#headdiv-2 ul ol a:hover::after,a:hover::before{
+.h-nav ol a:hover::after,a:hover::before{
     transform: scale(1);
 }
